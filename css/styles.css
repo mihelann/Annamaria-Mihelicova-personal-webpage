@@ -50,7 +50,9 @@ h3 {
 }
 
 .title-image {
-  position: relative;
+  /* position: relative; */
+  max-width: 100%;
+  height: auto;
 }
 
 .text-part {
@@ -73,10 +75,26 @@ h3 {
   text-decoration: none;
 }
 
+.social-media .link-icon{
+  margin: 2% 4%;
+}
+
+#Volunteering .link-icon:hover {
+  color: #EBD5D5;
+}
+
+.link-icon:hover {
+  color: #F2F2F2;
+}
+
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
   margin: 0% 0% 3% 0;
+}
+
+#Hobbies h3 {
+  color: #685454;
 }
 
 .subheading {
@@ -99,10 +117,6 @@ h3 {
   text-align: left;
 }
 
-.volunteering-link {
-  color: #EA8A8A;
-  text-decoration: none;
-}
 
 /* Abilities SECTION */
 #Abilities {
@@ -153,10 +167,4 @@ h3 {
   color: #EA8A8A;
   padding: 3% 18%;
   text-align: center;
-}
-
-.social-icon {
-  color: #EA8A8A;
-  margin: 3%;
-  text-decoration: none;
 }
