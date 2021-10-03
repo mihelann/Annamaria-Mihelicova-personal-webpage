@@ -1,149 +1,162 @@
-body {
-  color: #40514E;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
-
-h1 {
-  color: #66BFBF;
-  font-size: 5.625rem;
-  line-height: 2;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-}
-
-h2 {
-  color: #66BFBF;
-  font-family: 'Manrope', sans-serif;
-  font-size: 2rem;
-  font-weight: normal;
-}
-
-h3 {
-  font-family: 'Roboto';
-  color: #11999E;
-}
-
-a {
-  color: #11999E;
-  font-family: 'Manrope', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
-}
-
-
-hr {
-  border-style: none;
-  border-top: dotted;
-  border-width: 10px;
-  border-color: #707070;
-  margin: 100px auto;
-  width: 10%;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 p {
-    line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.top-container {
-  background-color: #D8E3E7;
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Jura', sans-serif;
+  color: #685454;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-dark {
+  background:  #685454;
+}
+
+.paragraph {
+  padding-bottom: 3%;
+}
+
+/* TITLE SECTION */
+#title {
+  background-color: #F2F2F2;
+  color: #EA8A8A;
+  text-align: center;
+}
+
+.big-heading {
+  font-size: 5rem;
+}
+
+
+.big-subheading {
+  font-size: 3rem;
+}
+
+
+.color-container {
+  padding: 3% 8%;
+}
+
+.title-image {
   position: relative;
-  padding-top: 100px;
 }
 
-.middle-container {
+.text-part {
+  padding: 4%;
 }
 
-.bottom-container {
-  background-color: #66BFBF;
-  padding: 40px 0 20px;
-  position: relative;
+/* Education SECTION */
+#Education {
+  background-color: #EBD5D5;
+  padding: 5% 18%;
+  text-align: left;
+}
+/* .white-container {
+  padding: 3% 8%;
+} */
+
+.link-icon  {
+  color: #EA8A8A;
+  margin: 0 1%;
+  text-decoration: none;
 }
 
-.intro{
-  width: 450px;
-  margin: auto;
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0% 0% 3% 0;
 }
 
-.contact-me {
-  margin: 30px auto 50px auto;
+.subheading {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.5
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+/* Experiences SECTION */
+#Experiences {
+  background-color: #F2F2F2;
+  padding: 5% 18%;
   text-align: left;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 400px;
-  top: 60px;
+/* Volunteering SECTION */
+#Volunteering {
+  background-color: #F2F2F2;
+  padding: 0 18% 5%;
+  text-align: left;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  top: 300px;
+.volunteering-link {
+  color: #EA8A8A;
+  text-decoration: none;
 }
 
-.copyright {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0 10px;
+/* Abilities SECTION */
+#Abilities {
+  background-color: #EBD5D5;
+  padding: 5% 18%;
+  text-align: left;
 }
 
-.programming-img {
-  border-radius: 50%;
-  float: left;
-  margin-right: 30px;
-  width: 25%;
+.flag {
+  width: 10%;
+  margin: 0 2%;
 }
 
-.hiking-img {
-  border-radius: 50%;
-  float: right;
-  width: 25%;
-  margin-left: 30px;
+.card-body {
+  text-align: center;
 }
 
-.button {
-   background: #11CDC4;
-   background-image: -webkit-linear-gradient(top, #11CDC4, #11999E);
-   background-image: -moz-linear-gradient(top, #11CDC4, #11999E);
-   background-image: -ms-linear-gradient(top, #11CDC4, #11999E);
-   background-image: -o-linear-gradient(top, #11CDC4, #11999E);
-   background-image: -webkit-gradient(to bottom, #11CDC4, #11999E);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-   color: #FFFFFF;
-   font-family: 'Roboto', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   padding: 17px;
-   border: solid #337FED 0;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+.card-header {
+  text-align: center;
 }
 
-.button:hover {
-   border: solid #707070 0;
-   background: #989B9F;
-   background-image: -webkit-linear-gradient(top, #989B9F, #707070);
-   background-image: -moz-linear-gradient(top, #989B9F, #707070);
-   background-image: -ms-linear-gradient(top, #989B9F, #707070);
-   background-image: -o-linear-gradient(top, #989B9F, #707070);
-   background-image: -webkit-gradient(to bottom, #989B9F, #707070);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-   text-decoration: none;
+/* Hobbies SECTION */
+#Hobbies {
+  background-color: #F2F2F2;
+  text-align: left;
+}
+
+.testemonial-pic-size {
+  width: 100%;
+}
+
+.carousel-content {
+    padding: 5% 18%;
+}
+
+.carousel-control {
+  color: #685454;
+}
+
+.center-picture {
+  text-align: center;
+}
+
+
+/* FOOTER */
+#footer {
+  background-color: #685454;
+  color: #EA8A8A;
+  padding: 3% 18%;
+  text-align: center;
+}
+
+.social-icon {
+  color: #EA8A8A;
+  margin: 3%;
+  text-decoration: none;
 }
